@@ -24,7 +24,7 @@ ref:
   env:
   - name: LP_QE__CR__TS_NAME__PFX
     default: "lp-ocp-compat--Quay"
-    documentation: ReportPortal Component Readiness component name for junit remapping
+    documentation: ReportPortal Component Readiness test-suite name prefix for junit remapping
   - name: MAP_TESTS
     default: "false"
     documentation: Specify whether to update the test suite name for reporting tools

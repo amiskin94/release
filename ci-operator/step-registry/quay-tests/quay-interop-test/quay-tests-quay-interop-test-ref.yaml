@@ -17,7 +17,7 @@ ref:
   env:
     - name: LP_QE__CR__TS_NAME__PFX
       default: "lp-interop--Quay"
-      documentation: Component Readiness component name for junit remapping
+      documentation: Component Readiness test-suite name prefix for junit remapping
     - name: MAP_TESTS
       default: "false"
       documentation: When true, remap junit test suite names for Component Readiness routing
