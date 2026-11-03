@@ -107,7 +107,10 @@ tests:
       FIREWATCH_DEFAULT_JIRA_EPIC: INTEROP-9323
       FIREWATCH_DEFAULT_JIRA_PROJECT: LPINTEROP
       FIREWATCH_FAIL_WITH_TEST_FAILURES: "false"
-      LP_QE__CR__TS_NAME__PFX: lp-interop--OPP
+      LP_QE__CR__TS_NAME__PFX__ACM: lp-interop--ACM--OPP
+      LP_QE__CR__TS_NAME__PFX__ACS: lp-interop--ACS--OPP
+      LP_QE__CR__TS_NAME__PFX__ODF: lp-interop--ODF--OPP
+      LP_QE__CR__TS_NAME__PFX__Quay: lp-interop--Quay--OPP
       MAP_TESTS: "true"
       MCP_WAIT_TIMEOUT: "4200"
       ODF_OPERATOR_CHANNEL: stable-4.22

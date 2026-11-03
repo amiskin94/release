@@ -169,7 +169,7 @@ tests:
       FIREWATCH_DEFAULT_JIRA_ADDITIONAL_LABELS: '["4.22-lp","self-managed-lp","serverless-lp"]'
       FIREWATCH_DEFAULT_JIRA_ASSIGNEE: maschmid@redhat.com
       FIREWATCH_DEFAULT_JIRA_PROJECT: SRVCOM
-      LP_QE__CR__TS_NAME__PFX: lp-ocp-compat--Serverless
+      LP_QE__CR__TS_NAME__PFX__Serverless: lp-ocp-compat--Serverless
       OCP_VERSION: "4.22"
       USER_TAGS: |
         scenario serverless
@@ -347,7 +347,7 @@ tests:
       FIREWATCH_DEFAULT_JIRA_ADDITIONAL_LABELS: '["4.22-lp","self-managed-lp","serverless-lp","fips"]'
       FIREWATCH_DEFAULT_JIRA_ASSIGNEE: maschmid@redhat.com
       FIREWATCH_DEFAULT_JIRA_PROJECT: SRVCOM
-      LP_QE__CR__TS_NAME__PFX: lp-ocp-compat--Serverless
+      LP_QE__CR__TS_NAME__PFX__Serverless: lp-ocp-compat--Serverless
       OCP_VERSION: "4.22"
       USER_TAGS: |
         scenario serverless

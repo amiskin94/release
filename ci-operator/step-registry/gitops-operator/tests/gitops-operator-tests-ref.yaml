@@ -9,9 +9,11 @@ ref:
       cpu: "2"
       memory: 6Gi
   env:
-  - name: LP_QE__CR__TS_NAME__PFX
-    default: "lp-ocp-compat--Gitops"
-    documentation: ReportPortal Component Readiness test-suite name prefix for junit remapping
+  - name: LP_QE__CR__TS_NAME__PFX__GitOps
+    documentation: |-
+      Component Readiness test-suite name prefix for GitOps.
+      Job must set this to match ci-test-mapping pattern.
+      Example: "lp-interop--GitOps--OPP" or "lp-ocp-compat--GitOps"
   - name: MAP_TESTS
     default: "false"
     documentation: Specify whether to update the test suite name for reporting tools

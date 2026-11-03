@@ -56,7 +56,7 @@ tests:
       FIREWATCH_DEFAULT_JIRA_ADDITIONAL_LABELS: '["5.0-lp","self-managed-lp","gitops-lp"]'
       FIREWATCH_DEFAULT_JIRA_ASSIGNEE: vab@redhat.com
       FIREWATCH_DEFAULT_JIRA_PROJECT: GITOPS
-      LP_QE__CR__TS_NAME__PFX: lp-ocp-compat--Gitops
+      LP_QE__CR__TS_NAME__PFX__GitOps: lp-ocp-compat--GitOps
       MAP_TESTS: "true"
       OCP_VERSION: "5.0"
       OPERATORS: |
@@ -100,7 +100,7 @@ tests:
       FIREWATCH_DEFAULT_JIRA_ASSIGNEE: vab@redhat.com
       FIREWATCH_DEFAULT_JIRA_PROJECT: LPINTEROP
       FIREWATCH_FAIL_WITH_TEST_FAILURES: "true"
-      LP_QE__CR__TS_NAME__PFX: lp-ocp-compat--Gitops
+      LP_QE__CR__TS_NAME__PFX__GitOps: lp-ocp-compat--GitOps
       MAP_TESTS: "true"
       OCP_VERSION: "5.0"
       OPERATORS: |

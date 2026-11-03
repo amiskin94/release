@@ -25,9 +25,11 @@ ref:
   - name: MAP_TESTS
     default: "false"
     documentation: Specify whether to update the test suite name for reporting tools
-  - name: LP_QE__CR__TS_NAME__PFX
-    default: "lp-ocp-compat--ODF"
-    documentation: If test mapping is applied, differentiate between the CNV and ODF jobs
+  - name: LP_QE__CR__TS_NAME__PFX__ODF
+    documentation: |-
+      Component Readiness test-suite name prefix for ODF.
+      Job must set this to match ci-test-mapping pattern.
+      Example: "lp-interop--ODF--OPP" or "lp-ocp-compat--ODF"
   - name: DISABLE_ENVIRONMENT_CHECKER
     default: "false"
     documentation: If true, skip the OCS environment checker during teardown

@@ -62,7 +62,7 @@ tests:
       FIREWATCH_DEFAULT_JIRA_ADDITIONAL_LABELS: '["4.22-lp", "self-managed-lp", "cnv-lp"]'
       FIREWATCH_DEFAULT_JIRA_ASSIGNEE: dkeler@redhat.com
       FIREWATCH_DEFAULT_JIRA_PROJECT: CNV
-      LP_QE__CR__TS_NAME__PFX: lp-ocp-compat--CNV
+      LP_QE__CR__TS_NAME__PFX__CNV: lp-ocp-compat--CNV
       MAP_TESTS: "true"
       OCP_VERSION: "4.22"
       ODF_OPERATOR_CHANNEL: stable-4.20
@@ -113,7 +113,7 @@ tests:
       FIREWATCH_DEFAULT_JIRA_ASSIGNEE: dkeler@redhat.com
       FIREWATCH_DEFAULT_JIRA_PROJECT: LPINTEROP
       FIREWATCH_FAIL_WITH_TEST_FAILURES: "true"
-      LP_QE__CR__TS_NAME__PFX: lp-ocp-compat--CNV
+      LP_QE__CR__TS_NAME__PFX__CNV: lp-ocp-compat--CNV
       MAP_TESTS: "true"
       OCP_VERSION: "4.22"
       ODF_OPERATOR_CHANNEL: stable-4.20

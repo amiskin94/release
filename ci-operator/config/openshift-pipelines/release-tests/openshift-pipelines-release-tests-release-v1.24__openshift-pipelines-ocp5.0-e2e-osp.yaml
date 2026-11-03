@@ -56,7 +56,7 @@ tests:
       FIREWATCH_DEFAULT_JIRA_ASSIGNEE: sselvan@redhat.com
       FIREWATCH_DEFAULT_JIRA_PROJECT: SRVKP
       FIREWATCH_FAIL_WITH_TEST_FAILURES: "true"
-      LP_QE__CR__TS_NAME__PFX: lp-ocp-compat--OpenshiftPipelines
+      LP_QE__CR__TS_NAME__PFX__OpenshiftPipelines: lp-ocp-compat--OpenshiftPipelines
       MAP_TESTS: "true"
       OCP_VERSION: "5.0"
       USER_TAGS: |
@@ -95,7 +95,7 @@ tests:
       FIREWATCH_DEFAULT_JIRA_ASSIGNEE: sselvan@redhat.com
       FIREWATCH_DEFAULT_JIRA_PROJECT: LPINTEROP
       FIREWATCH_FAIL_WITH_TEST_FAILURES: "true"
-      LP_QE__CR__TS_NAME__PFX: lp-ocp-compat--OpenshiftPipelines
+      LP_QE__CR__TS_NAME__PFX__OpenshiftPipelines: lp-ocp-compat--OpenshiftPipelines
       MAP_TESTS: "true"
       USER_TAGS: |
         scenario pipelines
