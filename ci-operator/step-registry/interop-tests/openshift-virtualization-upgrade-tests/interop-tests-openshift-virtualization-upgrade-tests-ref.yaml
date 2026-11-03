@@ -57,15 +57,17 @@ ref:
   - name: MAP_TESTS
     default: "false"
     documentation: Specify whether to update the test suite name for reporting tools
-  - name: LP_QE__CR__TS_NAME__PFX
+  - name: LP_QE__CNV_UPG__TS_NAME__PFX
     default: "lp-interop--CNV--ACM+Virt"
     documentation: |-
-      Declared on this step only. When MAP_TESTS is true, this step prepends
-      the value to the original pytest suite name. The published name is
-      "<LP_QE__CR__TS_NAME__PFX>--<original suite>". Do not set this in the job
-      env: that injects it into the ACM steps in the same job. LP_QE__CR__TS_NAME__PFX
-      stays on the job for mpiit-data-router-reporter and the ACM suite prefix.
-      The merge and copy to SHARED_DIR still run when MAP_TESTS is false.
+      Step-local suite-name prefix, deliberately distinct from the job-level
+      LP_QE__CR__TS_NAME__PFX: the ACM+Virt jobs set that variable in the job
+      env (for mpiit-data-router-reporter and the ACM steps), and a shared
+      name would let the job value override this step's CNV-specific default.
+      When MAP_TESTS is true, this step prepends the value to the original
+      pytest suite name. The published name is
+      "<LP_QE__CNV_UPG__TS_NAME__PFX>--<original suite>". The merge and copy
+      to SHARED_DIR still run when MAP_TESTS is false.
   - name: CNV_TARGET_MAJOR_MINOR
     default: "4.21"
     documentation: |-
