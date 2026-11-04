@@ -1,0 +1,15 @@
+{
+	"path": "interop/ACM/securities/ACS/acm-opp-app/interop-ACM-securities-ACS-acm-opp-app-ref.yaml",
+	"owners": {
+		"approvers": [
+			"cspi-qe-ocp-lp",
+			"gparvin",
+			"vboulos"
+		],
+		"reviewers": [
+			"cspi-qe-ocp-lp",
+			"gparvin",
+			"vboulos"
+		]
+	}
+}

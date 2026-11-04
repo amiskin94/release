@@ -1,0 +1,15 @@
+{
+	"path": "interop/ACM/policies/OPP/acm-policies-openshift-plus/interop-ACM-policies-OPP-acm-policies-openshift-plus-ref.yaml",
+	"owners": {
+		"approvers": [
+			"cspi-qe-ocp-lp",
+			"vboulos",
+			"gparvin"
+		],
+		"reviewers": [
+			"cspi-qe-ocp-lp",
+			"vboulos",
+			"gparvin"
+		]
+	}
+}
